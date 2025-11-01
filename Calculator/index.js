@@ -3,14 +3,14 @@
 const display = document.getElementById("display");
 
 function appendToDisplay(input){
-    display.value += value;
+    display.value += input;
 }
 
 function clearDisplay(){
     display.value = "";
 }
 
-function calculation(){
+function calculator(){
     try{
         display.value = eval(display.value);
     }
